@@ -1,4 +1,6 @@
+$(document).ready(function(){
 
+});
 window.addEventListener("load", function() {
 
     window.requestAnimFrame = (function() {

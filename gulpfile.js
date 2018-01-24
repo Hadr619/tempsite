@@ -38,7 +38,7 @@ gulp.task('watchFiles', ()=>{
 });
 
 gulp.task('clean', ()=>{
-	del(['dist', 'css/site.css*', 'js/site*.js*']);
+	del(['dist', 'js/site*.js*']);
 })
 
 gulp.task('build',['minifyScripts', 'sass'], ()=>{
