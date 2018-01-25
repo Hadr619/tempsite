@@ -40,5 +40,3 @@ function getTimeRemaining(endtime) {
 //   var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
 let deadline = new Date("mar 20 2019 12:00:00")
   initClock('.c-countdown', deadline);
-
-//# sourceMappingURL=site.js.map
